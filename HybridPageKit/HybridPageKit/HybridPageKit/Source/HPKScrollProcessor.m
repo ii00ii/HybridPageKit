@@ -415,7 +415,7 @@ static inline SEL _getHPKScrollProtocolByEventType(HPKScrollEvent event) {
 
     UIScrollView *contentScrollView = [self _componentInnerScrollView:view];
     if (contentScrollView) {
-        contentScrollView.scrollEnabled = NO;
+        // contentScrollView.scrollEnabled = NO;
         correctHeight = MIN(correctHeight, _scrollView.frame.size.height);
     }
 
